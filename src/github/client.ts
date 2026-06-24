@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/rest";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({ quiet: true });
 
 const token = process.env.GITHUB_TOKEN;
 
