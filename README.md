@@ -164,16 +164,17 @@ Ejemplo de configuración:
     "github-mcp-server": {
       "command": "node",
       "args": [
-        "D:\\HENRY\\PROYECTO M5\\node_modules\\tsx\\dist\\cli.mjs",
-        "D:\\HENRY\\PROYECTO M5\\src\\server.ts"
+        "node_modules/tsx/dist/cli.mjs",
+        "src/server.ts"
       ],
       "env": {
-        "GITHUB_TOKEN": "TU_TOKEN_REAL"
+        "GITHUB_TOKEN": "<TU_TOKEN>"
       }
     }
   }
 }
 ```
+Ajustar las rutas según la ubicación local del proyecto.
 
 Después de guardar la configuración, volver a `Manage MCP Servers` y presionar `Refresh`.
 
