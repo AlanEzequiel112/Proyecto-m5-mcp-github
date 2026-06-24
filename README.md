@@ -32,6 +32,12 @@ El servidor se conecta con un Host compatible con MCP, como Antigravity IDE, y p
 ## Estructura del proyecto
 
 ```text
+docs/
+└── screenshots/
+    ├── antigravity-tools.png
+    ├── mcp-inspector.png
+    ├── tests.png
+    └── build.png
 src/
 ├── errors/
 │   └── index.ts
